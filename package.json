@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"node-telegram-bot-api": "^0.66.0",
+		"pm2": "^5.4.2",
+		"sqlite3": "^5.1.7"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	},
+	"scripts": {
+		"start": "nodemon bot.js"
+	}
+}
